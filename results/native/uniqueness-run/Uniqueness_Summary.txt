@@ -1,0 +1,32 @@
+Summary: Attacker Risk Models
+=============================
+
+Key variables: key 
+Model: all 
+
+Dataset Statistics:
+  Total records: 10 
+  Equivalence classes: 2 
+  Unique records (f_k = 1): 1 (50.0% of ECs) 
+  Mean EC size: 5 
+  Median EC size: 5 
+
+Global Risk:
+  Prosecutor: 0.2000 
+  Journalist: 0.0020 (sampling fraction = 0.0100) 
+  Marketer:   0.2000 
+
+Per-Record Risk Distribution:
+  Min: 0.1111 
+  Q1:  0.1111 
+  Median: 0.1111 
+  Q3:  0.1111 
+  P90: 0.2000 
+  Max: 1.0000 
+  Records with risk > 0.1: 10 (100.0%) 
+
+Equivalence Class Size Distribution:
+  1   2   3   4   5   6   7   8   9 10+ 
+  1   0   0   0   0   0   0   0   1   0 
+
+Privacy: WARNING 

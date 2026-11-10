@@ -1,0 +1,9 @@
+{
+  "repeat_identical": true,
+  "full_result_matches_retained_bytes": true,
+  "all_records_and_inputs_match": true,
+  "sha256": "da987c9b26d682d1b8ba93ad2f9bd8238853cdc1c49a6221f3e99c7131cf6f12",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "sqlite": "3.53.1"
+}

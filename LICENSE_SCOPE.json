@@ -1,0 +1,23 @@
+{
+  "version": "0.3",
+  "original_code_GPL-3.0-only": [
+    "native/export_native.R",
+    "native/plan_uniqueness_probe.R",
+    "native/reproduce_native.sh",
+    "native/run_native_pilot.R",
+    "python/reproduce_python.py",
+    "python/run_study.py",
+    "verification/check_results.py"
+  ],
+  "third_party_existing_GPL-3": [
+    "python/inputs/attacker_risk.R",
+    "results/native/Installed_Attacker_Function.txt",
+    "third_party/COPYING.GPL-3.txt",
+    "third_party/riskutility/DESCRIPTION",
+    "third_party/riskutility/R/attacker_risk.R",
+    "third_party/riskutility/man/attacker_risk.Rd",
+    "third_party/riskutility/tests/testthat/test-attacker-risk.R",
+    "third_party/riskutility_0.2.0.tar.gz"
+  ],
+  "original_data_results_documentation_CC-BY-4.0": "All other original study content, subject to the exclusions and scope in LICENSES.md"
+}

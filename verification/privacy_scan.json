@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "files_scanned": 187,
+  "upstream_tar_members_scanned": 501,
+  "secret_or_private_path_matches": [],
+  "scope": "Bounded pattern review, including decompressed RDS/upstream source; not an exhaustive guarantee. Public upstream attribution retained."
+}

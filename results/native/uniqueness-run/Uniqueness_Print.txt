@@ -1,0 +1,17 @@
+Attacker Risk Models
+====================
+
+Key variables: key 
+Records: 10 
+Model: all 
+
+Global Risk:
+  Prosecutor: 0.2000 
+  Journalist: 0.0020 (sampling fraction = 0.0100) 
+  Marketer:   0.2000 
+
+Unique Records: 1 of 2 equivalence classes (50.0%) 
+
+Privacy Assessment: WARNING
+  Elevated re-identification risk detected (> 0.1).
+  Consider additional anonymization measures.

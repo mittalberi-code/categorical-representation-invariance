@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "singletons__original",
+    "family": "singletons",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "singletons__reverse_rows",
+    "family": "singletons",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "singletons__reverse_columns",
+    "family": "singletons",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "singletons__safe_relabel",
+    "family": "singletons",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "singletons__delimiter_relabel",
+    "family": "singletons",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "all_repeated__original",
+    "family": "all_repeated",
+    "n": 4,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "exact_prosecutor_marketer": "1/4",
+    "exact_journalist": "1/400",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "all_repeated__reverse_rows",
+    "family": "all_repeated",
+    "n": 4,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "exact_prosecutor_marketer": "1/4",
+    "exact_journalist": "1/400",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "all_repeated__reverse_columns",
+    "family": "all_repeated",
+    "n": 4,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "exact_prosecutor_marketer": "1/4",
+    "exact_journalist": "1/400",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "all_repeated__safe_relabel",
+    "family": "all_repeated",
+    "n": 4,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "exact_prosecutor_marketer": "1/4",
+    "exact_journalist": "1/400",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "all_repeated__delimiter_relabel",
+    "family": "all_repeated",
+    "n": 4,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "exact_prosecutor_marketer": "1/4",
+    "exact_journalist": "1/400",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "mixed_sizes__original",
+    "family": "mixed_sizes",
+    "n": 6,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_prosecutor_marketer": "1/2",
+    "exact_journalist": "1/200",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "mixed_sizes__reverse_rows",
+    "family": "mixed_sizes",
+    "n": 6,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "exact_prosecutor_marketer": "1/2",
+    "exact_journalist": "1/200",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "mixed_sizes__reverse_columns",
+    "family": "mixed_sizes",
+    "n": 6,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_prosecutor_marketer": "1/2",
+    "exact_journalist": "1/200",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "mixed_sizes__safe_relabel",
+    "family": "mixed_sizes",
+    "n": 6,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_prosecutor_marketer": "1/2",
+    "exact_journalist": "1/200",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "mixed_sizes__delimiter_relabel",
+    "family": "mixed_sizes",
+    "n": 6,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      1
+    ],
+    "exact_prosecutor_marketer": "1/2",
+    "exact_journalist": "1/200",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "empty_strings__original",
+    "family": "empty_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "empty_strings__reverse_rows",
+    "family": "empty_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "empty_strings__reverse_columns",
+    "family": "empty_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "empty_strings__safe_relabel",
+    "family": "empty_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "empty_strings__delimiter_relabel",
+    "family": "empty_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "spaces__original",
+    "family": "spaces",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "spaces__reverse_rows",
+    "family": "spaces",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "spaces__reverse_columns",
+    "family": "spaces",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "spaces__safe_relabel",
+    "family": "spaces",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "spaces__delimiter_relabel",
+    "family": "spaces",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_collision__original",
+    "family": "delimiter_collision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_collision__reverse_rows",
+    "family": "delimiter_collision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_collision__reverse_columns",
+    "family": "delimiter_collision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_collision__safe_relabel",
+    "family": "delimiter_collision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_collision__delimiter_relabel",
+    "family": "delimiter_collision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_noncollision__original",
+    "family": "delimiter_noncollision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_noncollision__reverse_rows",
+    "family": "delimiter_noncollision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_noncollision__reverse_columns",
+    "family": "delimiter_noncollision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_noncollision__safe_relabel",
+    "family": "delimiter_noncollision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "delimiter_noncollision__delimiter_relabel",
+    "family": "delimiter_noncollision",
+    "n": 2,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "digit_strings__original",
+    "family": "digit_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "digit_strings__reverse_rows",
+    "family": "digit_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "digit_strings__reverse_columns",
+    "family": "digit_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "digit_strings__safe_relabel",
+    "family": "digit_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "digit_strings__delimiter_relabel",
+    "family": "digit_strings",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "unicode__original",
+    "family": "unicode",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "unicode__reverse_rows",
+    "family": "unicode",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "unicode__reverse_columns",
+    "family": "unicode",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "unicode__safe_relabel",
+    "family": "unicode",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "unicode__delimiter_relabel",
+    "family": "unicode",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "single_key__original",
+    "family": "single_key",
+    "n": 3,
+    "columns": [
+      "k1"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "single_key__reverse_rows",
+    "family": "single_key",
+    "n": 3,
+    "columns": [
+      "k1"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "single_key__reverse_columns",
+    "family": "single_key",
+    "n": 3,
+    "columns": [
+      "k1"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "single_key__safe_relabel",
+    "family": "single_key",
+    "n": 3,
+    "columns": [
+      "k1"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "single_key__delimiter_relabel",
+    "family": "single_key",
+    "n": 3,
+    "columns": [
+      "k1"
+    ],
+    "frequency": [
+      2,
+      1,
+      2
+    ],
+    "exact_prosecutor_marketer": "2/3",
+    "exact_journalist": "1/150",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "four_keys__original",
+    "family": "four_keys",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "four_keys__reverse_rows",
+    "family": "four_keys",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "four_keys__reverse_columns",
+    "family": "four_keys",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "four_keys__safe_relabel",
+    "family": "four_keys",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "four_keys__delimiter_relabel",
+    "family": "four_keys",
+    "n": 3,
+    "columns": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "frequency": [
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "flag_boundary_collision__original",
+    "family": "flag_boundary_collision",
+    "n": 10,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "flag_boundary_collision__reverse_rows",
+    "family": "flag_boundary_collision",
+    "n": 10,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "flag_boundary_collision__reverse_columns",
+    "family": "flag_boundary_collision",
+    "n": 10,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "flag_boundary_collision__safe_relabel",
+    "family": "flag_boundary_collision",
+    "n": 10,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  },
+  {
+    "id": "flag_boundary_collision__delimiter_relabel",
+    "family": "flag_boundary_collision",
+    "n": 10,
+    "columns": [
+      "k1",
+      "k2"
+    ],
+    "frequency": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_prosecutor_marketer": "1",
+    "exact_journalist": "1/100",
+    "exact_privacy_pass": false
+  }
+]

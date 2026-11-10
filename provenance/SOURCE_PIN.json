@@ -1,0 +1,10 @@
+{
+  "package": "riskutility",
+  "version": "0.2.0",
+  "archive_url": "https://cran.r-project.org/src/contrib/riskutility_0.2.0.tar.gz",
+  "archive_sha256": "b91d242e558e0cc61607682c472998bcc62a426da1d6fed6ebb4b99ee97ddec3",
+  "attacker_source_sha256": "761095b1affa2aa67be75c9e0fa0d2369138497d53d87b8b11807a372b4da237",
+  "license_as_declared": "GPL-3",
+  "upstream_repository": "https://github.com/matthias-da/riskutility",
+  "version_scope": "Preserved historical bytes; present upstream release status not checked."
+}

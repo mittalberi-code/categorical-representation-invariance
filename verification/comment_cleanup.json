@@ -1,0 +1,22 @@
+{
+  "changes": [
+    {
+      "file": "native/run_native_pilot.R",
+      "removed_comment_lines": 2,
+      "original_sha256": "ceeb63a478990245a3014b8f76f50379c1f6d5314b333a4f2582676b09a785b5",
+      "cleaned_sha256": "577bdf19f4d115c925e2b23d2bf6c0538c7b1edb22d72798e2da383fb4ac55c9",
+      "all_noncomment_lines_identical": true
+    },
+    {
+      "file": "native/plan_uniqueness_probe.R",
+      "removed_comment_lines": 2,
+      "original_sha256": "c488c11f229ebee279931833c9bbcc806eed0694a6ce8f2157a0409a53f0d3ce",
+      "cleaned_sha256": "a3b87a08d0f5c176b8fc01344cf35c497f264f028cb16896ed399de6f2eed53e",
+      "all_noncomment_lines_identical": true
+    }
+  ],
+  "removed_full_line_comments_total": 4,
+  "third_party_archive_and_extracted_files_unchanged": true,
+  "scientific_and_source_provenance_comments_retained": true,
+  "scope": "No logic, parameters, seeds, calculations, outputs, dependency pins or third-party source changed."
+}

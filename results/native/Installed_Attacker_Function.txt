@@ -1,0 +1,70 @@
+function (X, key_vars, sampling_fraction = 0.01, model = c("all", 
+    "prosecutor", "journalist", "marketer"), na.rm = TRUE, ...) 
+{
+    if (!is.data.frame(X)) 
+        stop("X must be a data frame.")
+    model <- match.arg(model)
+    missing_vars <- setdiff(key_vars, names(X))
+    if (length(missing_vars) > 0) {
+        stop(paste("Key variables missing in X:", paste(missing_vars, 
+            collapse = ", ")))
+    }
+    if (!is.numeric(sampling_fraction) || length(sampling_fraction) != 
+        1 || sampling_fraction <= 0 || sampling_fraction > 1) {
+        stop("sampling_fraction must be a single numeric value in (0, 1].")
+    }
+    X_keys <- X[, key_vars, drop = FALSE]
+    if (na.rm) {
+        complete_idx <- complete.cases(X_keys)
+        if (sum(!complete_idx) > 0) {
+            message(sprintf("Removing %d records with NA in key variables.", 
+                sum(!complete_idx)))
+        }
+        X_keys <- X_keys[complete_idx, , drop = FALSE]
+    }
+    if (nrow(X_keys) == 0) 
+        stop("No complete cases remaining.")
+    n <- nrow(X_keys)
+    key_signature <- apply(X_keys, 1, paste, collapse = "|")
+    freq_table <- table(key_signature)
+    ec_sizes <- as.numeric(freq_table)
+    f_k <- as.numeric(freq_table[key_signature])
+    compute_prosecutor <- model %in% c("all", "prosecutor")
+    compute_journalist <- model %in% c("all", "journalist")
+    compute_marketer <- model %in% c("all", "marketer")
+    risk_per_record <- data.frame(freq = f_k)
+    if (compute_prosecutor || compute_marketer) {
+        risk_per_record$prosecutor <- 1/f_k
+    }
+    if (compute_journalist) {
+        F_k <- f_k/sampling_fraction
+        risk_per_record$journalist <- 1/F_k
+    }
+    global_risk <- list()
+    if (compute_prosecutor) {
+        global_risk$prosecutor <- mean(1/f_k)
+    }
+    if (compute_journalist) {
+        global_risk$journalist <- mean(sampling_fraction/f_k)
+    }
+    if (compute_marketer) {
+        global_risk$marketer <- (1/n) * sum(1/f_k)
+    }
+    n_uniques <- sum(ec_sizes == 1)
+    pct_uniques <- n_uniques/length(ec_sizes)
+    if (compute_prosecutor) {
+        privacy_pass <- global_risk$prosecutor <= 0.1
+    }
+    else if (compute_journalist) {
+        privacy_pass <- global_risk$journalist <= 0.1
+    }
+    else {
+        privacy_pass <- global_risk$marketer <= 0.1
+    }
+    results <- list(risk_per_record = risk_per_record, global_risk = global_risk, 
+        n_uniques = n_uniques, pct_uniques = pct_uniques, freq_table = freq_table, 
+        model = model, key_vars = key_vars, sampling_fraction = sampling_fraction, 
+        n_records = n, privacy_pass = privacy_pass)
+    class(results) <- "attacker_risk"
+    return(results)
+}

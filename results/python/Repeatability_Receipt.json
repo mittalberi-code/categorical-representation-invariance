@@ -1,0 +1,7 @@
+{
+  "separate_process_runs": 2,
+  "byte_identical": true,
+  "results_sha256": "da987c9b26d682d1b8ba93ad2f9bd8238853cdc1c49a6221f3e99c7131cf6f12",
+  "syntax_compilation_passed": true,
+  "native_R_executed": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "release": "0.3",
+  "all_original_executable_files_byte_identical": true,
+  "all_inputs_results_environment_and_third_party_bytes_identical": true,
+  "preserved_file_count": 178,
+  "changed_or_replaced_paths": [
+    "CODE_DATA_AVAILABILITY_DRAFT.md",
+    "COMMENT_CLEANUP.md",
+    "README.md",
+    "RELEASE_CHECKLIST.md",
+    "SHA256SUMS.txt",
+    "THIRD_PARTY_NOTICES.md",
+    "metadata.json",
+    "provenance/CURATION_NOTES.md",
+    "verification/INDEPENDENT_QA_v0.1.md",
+    "verification/INDEPENDENT_QA_v0.2.md"
+  ],
+  "note": "Documentation/license/metadata cleanup only; no fresh native R execution."
+}

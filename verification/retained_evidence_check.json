@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "python_variants": 562,
+  "safe_method_checks": 2810,
+  "delimiter_model_disagreements": 43,
+  "prepared_csv_names": 60,
+  "prepared_csv_byte_distinct": 54,
+  "native_counts": {
+    "run-1": {
+      "datasets": 60,
+      "record_evaluations": 220,
+      "frequency_disagreements": 6,
+      "flag_changes": 2,
+      "record_mismatches": 28,
+      "errors": 0,
+      "warning_datasets": 0
+    },
+    "run-2": {
+      "datasets": 60,
+      "record_evaluations": 220,
+      "frequency_disagreements": 6,
+      "flag_changes": 2,
+      "record_mismatches": 28,
+      "errors": 0,
+      "warning_datasets": 0
+    }
+  },
+  "native_raw_files_byte_identical": true,
+  "native_executed_by_this_checker": false,
+  "interpretation": "Validates retained native exports and raw-byte repeatability; not a fresh native R replication."
+}

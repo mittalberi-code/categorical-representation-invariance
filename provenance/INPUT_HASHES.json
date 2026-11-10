@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "JPC_Privacy_LaTeX_Source_v0.5.zip",
+    "sha256": "e7057122d083894e898b39ad479d341be96041dd9c28cb3a15c4c8a755630288",
+    "size_bytes": 30089
+  },
+  {
+    "filename": "JPC_Privacy_Manuscript_v0.5.pdf",
+    "sha256": "31597abd743ee20370eb8ad98387393c996e28ae6fbe69007897bcaad0b97abf",
+    "size_bytes": 355558
+  },
+  {
+    "filename": "JPC_Privacy_Supplement_v0.5.pdf",
+    "sha256": "f158f022f438015000c4459f14102ac4245f28b6e7404bdd9954bde8ee9d7068",
+    "size_bytes": 220136
+  },
+  {
+    "filename": "Privacy_Native_R_Inputs.zip",
+    "sha256": "c920971b020b95d7be3280a62478420087ae03374ea8c2d0a209c3e43d89e1b9",
+    "size_bytes": 1224213
+  },
+  {
+    "filename": "Privacy_Native_R_Results_20261110.zip",
+    "sha256": "8bb7d697ccf63ad2480ee64b15500e7eeaa6656776fbd6d0b7285c9cf60dd85f",
+    "size_bytes": 1433605
+  },
+  {
+    "filename": "Python_Alternative/run_study.py",
+    "sha256": "bd8a1508067005baa63acabe987c5a6be6ea6a2e88f741b032f9a57756cb8e40",
+    "size_bytes": 5560
+  },
+  {
+    "filename": "Python_Alternative/results_run1.json",
+    "sha256": "da987c9b26d682d1b8ba93ad2f9bd8238853cdc1c49a6221f3e99c7131cf6f12",
+    "size_bytes": 2676707
+  },
+  {
+    "filename": "Python_Alternative/results_run2.json",
+    "sha256": "da987c9b26d682d1b8ba93ad2f9bd8238853cdc1c49a6221f3e99c7131cf6f12",
+    "size_bytes": 2676707
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "title": "Code and synthetic data for Testing Categorical Representation Invariance in Disclosure Risk Estimation",
+  "creator": "Harish Kumar Mittal",
+  "package_version": "0.3",
+  "manuscript_version": "v0.5",
+  "date_prepared": "2026-11-10",
+  "status": "release archive",
+  "doi": "10.5281/zenodo.24110689",
+  "repository_record": "https://zenodo.org/records/24110689",
+  "original_material_license": {
+    "code": "GPL-3.0-only",
+    "synthetic_data_results_documentation": "CC-BY-4.0",
+    "scope": "LICENSES.md"
+  },
+  "public_release_authorized": true,
+  "third_party_license": "riskutility 0.2.0 declares GPL-3; see THIRD_PARTY_NOTICES.md",
+  "change_from_v0.1": "Four unnecessary full-line comments removed from two author-written R runners; non-comment lines and all third-party content unchanged.",
+  "change_from_v0_2": "Release documentation and licensing scope cleanup only. Executable code, synthetic inputs, retained computational results and third-party files unchanged.",
+  "licenses_authorized": true,
+  "code_repository": "https://github.com/mittalberi-code/categorical-representation-invariance"
+}
